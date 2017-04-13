@@ -6,6 +6,6 @@ unsigned char state[4][4];
 public:
 	AES();
 	~AES();
-	void loadState(unsigned char*);
+	void loadState(const unsigned char*);
 	std::string printState();
-}
+};

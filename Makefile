@@ -1,7 +1,7 @@
 AEStest: main.o aes.o HexHelper.o
 	g++ main.o aes.o HexHelper.o -o AES
 
-aes.o: aes.cc aes.h
+aes.o: aes.cc aes.h HexHelper.h
 	g++ -c -g aes.cc
 
 main.o: main.cc aes.h
