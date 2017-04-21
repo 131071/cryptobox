@@ -15,7 +15,7 @@ std::string HexHelper::printArray(std::string arrayName, const unsigned char* ar
 			output = output + "\n\t\t\t\t";
 		}
 	}
-	output = output + "\t}";
+	output = output + "\t}\n";
 	return output;
 }
 
@@ -45,3 +45,4 @@ std::string HexHelper::toHex(unsigned char a){
 	s += hexLookup[a & 0x0F];
 	return s;
 }
+

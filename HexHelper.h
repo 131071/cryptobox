@@ -9,3 +9,5 @@ public:
   static unsigned char xmult(unsigned char, unsigned char);
   static unsigned char xtime(unsigned char);
 };
+
+
